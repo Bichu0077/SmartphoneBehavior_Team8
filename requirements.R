@@ -1,0 +1,10 @@
+install.packages(c(
+  "tidyverse",
+  "ggplot2",
+  "corrplot",
+  "GGally",
+  "cluster",
+  "factoextra",
+  "arules",
+  "arulesViz"
+))
