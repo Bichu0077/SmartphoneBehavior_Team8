@@ -1,10 +1,12 @@
-install.packages(c(
-  "tidyverse",
-  "ggplot2",
-  "corrplot",
-  "GGally",
-  "cluster",
-  "factoextra",
-  "arules",
-  "arulesViz"
-))
+install.packages("ggplot2")
+install.packages("dplyr")
+install.packages("corrplot")
+install.packages("cluster")
+install.packages("tseries")
+install.packages("doBy")
+install.packages("pbkrtest")
+install.packages("car")
+install.packages("rstatix")
+install.packages("ggpubr")
+install.packages("factoextra")
+install.packages("GGally")
