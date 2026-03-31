@@ -209,7 +209,11 @@ SmartphoneBehavior_Team8/
 
 ## Conclusion
 
-This project successfully identifies meaningful behavioral patterns in smartphone usage data. K-Means clustering with `k=3` reveals three clearly differentiated user groups — heavy, balanced, and minimal users — each showing consistent patterns across screen time, app usage, battery drain, and data consumption. The extensive visualization suite validates these groupings and provides actionable insights into digital habits and usage trends. These findings can serve as a foundation for personalized digital wellness recommendations and targeted app optimization strategies.
+This project successfully uncovers meaningful behavioral patterns in smartphone usage data through systematic preprocessing, exploratory analysis, and clustering techniques. The analysis reveals strong relationships between key features such as screen time, app usage, battery consumption, and data usage, highlighting how user engagement directly impacts device resource utilization.
+
+The clustering approach effectively groups users with similar behavioral characteristics, enabling a clear understanding of varying usage intensities. These patterns are further validated through extensive visualizations, which demonstrate consistent separation across multiple dimensions of user activity.
+
+Overall, the findings provide valuable insights into digital behavior trends and can serve as a foundation for applications such as personalized user recommendations, digital wellbeing monitoring, and efficient resource optimization strategies in mobile systems.
 
 ---
 
