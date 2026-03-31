@@ -1,6 +1,6 @@
-# 📱 Smartphone Behavior Analysis using Data Mining
+# Smartphone Behavior Analysis using Data Mining
 
-## 👥 Team Members
+## Team Members
 
 | Name | Roll Number |
 |------|-------------|
@@ -11,13 +11,13 @@
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 With the rapid increase in smartphone usage, large volumes of behavioral data are generated daily. This project aims to analyze smartphone usage patterns and uncover meaningful behavioral groups and relationships using data mining techniques. By applying clustering and extensive exploratory analysis, we seek to understand how different user groups interact with their smartphones in terms of screen time, app usage, battery consumption, and data usage.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Identify distinct user behavior groups using unsupervised clustering (K-Means)
 - Discover correlations and relationships between smartphone usage features
@@ -27,7 +27,7 @@ With the rapid increase in smartphone usage, large volumes of behavioral data ar
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - **Source:** [Kaggle – Mobile Device Usage and User Behavior Dataset](https://www.kaggle.com/datasets/valakhorasani/mobile-device-usage-and-user-behavior-dataset)
 - **File:** `data/user_behavior_dataset.csv`
@@ -52,9 +52,9 @@ With the rapid increase in smartphone usage, large volumes of behavioral data ar
 
 ---
 
-## ⚙️ Methodology
+## Methodology
 
-### 🔹 1. Data Preprocessing (`scripts/01_data_preparation.R`)
+### 1. Data Preprocessing (`scripts/01_data_preparation.R`)
 
 - Loaded and inspected the raw dataset
 - Performed missing value analysis — **no missing values** were found
@@ -64,7 +64,7 @@ With the rapid increase in smartphone usage, large volumes of behavioral data ar
 - Converted `User Behavior Class` to a factor variable
 - Saved the cleaned dataset to `data/cleaned_data.csv`
 
-### 🔹 2. Exploratory Data Analysis (`scripts/02_exploratory_analysis.R`)
+### 2. Exploratory Data Analysis (`scripts/02_exploratory_analysis.R`)
 
 - Distribution analysis using **histograms** for `Screen On Time`
 - **Correlation heatmap** to identify linear relationships between numeric features
@@ -72,7 +72,7 @@ With the rapid increase in smartphone usage, large volumes of behavioral data ar
 - **Pair plot** for multi-dimensional feature analysis
 - Outputs saved to `results/figures/`
 
-### 🔹 3. Clustering – K-Means (`scripts/03_modeling.R`)
+### 3. Clustering – K-Means (`scripts/03_modeling.R`)
 
 - Selected only numeric features and applied **Z-score standardization**
 - Determined the optimal number of clusters using the **Elbow Method** (WSS plot)
@@ -81,7 +81,7 @@ With the rapid increase in smartphone usage, large volumes of behavioral data ar
 - Generated cluster-wise feature summaries in `results/tables/cluster_summary.csv`
 - Outputs saved to `results/figures2/`
 
-### 🔹 4. Advanced Evaluation & Visualization (`scripts/04_evaluation.R`)
+### 4. Advanced Evaluation & Visualization (`scripts/04_evaluation.R`)
 
 - **Histograms** for app usage, age, and data usage distributions
 - **Boxplots** and **violin plots** for screen time spread across clusters
@@ -94,15 +94,7 @@ With the rapid increase in smartphone usage, large volumes of behavioral data ar
 
 ---
 
-## 📈 Results
-
-### Clustering Insights
-
-| Cluster | Characteristics | User Type |
-|---------|-----------------|-----------|
-| Cluster 1 | High screen time, high app usage, high battery drain | **Heavy Users** |
-| Cluster 2 | Moderate screen time and app usage | **Balanced Users** |
-| Cluster 3 | Low screen time, low app usage, low data consumption | **Minimal Users** |
+## Results
 
 ### Behavioral Patterns Discovered
 
@@ -114,7 +106,7 @@ With the rapid increase in smartphone usage, large volumes of behavioral data ar
 
 ---
 
-## 📊 Key Visualizations
+## Key Visualizations
 
 ### Correlation Heatmap
 ![Correlation Heatmap](results/figures3/correlation.png)
@@ -142,7 +134,7 @@ With the rapid increase in smartphone usage, large volumes of behavioral data ar
 
 ---
 
-## 🚀 How to Run the Project
+## How to Run the Project
 
 ### Prerequisites
 
@@ -215,13 +207,13 @@ SmartphoneBehavior_Team8/
 
 ---
 
-## 📌 Conclusion
+## Conclusion
 
 This project successfully identifies meaningful behavioral patterns in smartphone usage data. K-Means clustering with `k=3` reveals three clearly differentiated user groups — heavy, balanced, and minimal users — each showing consistent patterns across screen time, app usage, battery drain, and data consumption. The extensive visualization suite validates these groupings and provides actionable insights into digital habits and usage trends. These findings can serve as a foundation for personalized digital wellness recommendations and targeted app optimization strategies.
 
 ---
 
-## 👨‍💻 Contribution
+## Contribution
 
 | Roll Number | Contribution |
 |-------------|--------------|
@@ -232,13 +224,13 @@ This project successfully identifies meaningful behavioral patterns in smartphon
 
 ---
 
-## 🔗 GitHub Repository
+## GitHub Repository
 
 https://github.com/Bichu0077/SmartphoneBehavior_Team8
 
 ---
 
-## 📚 References
+## References
 
 - Kaggle – Mobile Device Usage and User Behavior Dataset: https://www.kaggle.com/datasets/valakhorasani/mobile-device-usage-and-user-behavior-dataset
 - R Core Team (2023). *R: A Language and Environment for Statistical Computing*. R Foundation for Statistical Computing.
