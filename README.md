@@ -111,26 +111,42 @@ With the rapid increase in smartphone usage, large volumes of behavioral data ar
 ### Correlation Heatmap
 ![Correlation Heatmap](results/figures3/correlation.png)
 
+Shows pairwise linear correlations between all numeric features. Strong positive relationships are visible between screen time, app usage time, and battery drain.
+
 ### Cluster Distribution
 ![Cluster Distribution](results/figures2/cluster_distribution.png)
+
+Bar chart showing the number of users assigned to each of the three K-Means clusters, indicating how the dataset is split across behavioral groups.
 
 ### Screen Time Distribution
 ![Screen Time Histogram](results/figures3/screen_time_hist.png)
 
+Histogram of daily screen-on time across all users, illustrating the overall spread and the most common usage ranges in the dataset.
+
 ### Screen Time vs App Usage (by Cluster)
 ![Screen Time vs App Usage](results/figures3/screen_vs_app.png)
+
+Scatter plot comparing daily screen time against app usage time, with points colored by cluster. Highlights the strong positive relationship and clear separation between user groups.
 
 ### Screen Time Density by Cluster
 ![Screen Density](results/figures3/screen_density.png)
 
+Density curves showing the distribution of screen-on time for each cluster, making it easy to compare how usage intensity differs across the three behavioral groups.
+
 ### Elbow Method (Optimal k)
 ![Elbow Method](results/figures2/elbow.png)
+
+Within-cluster sum of squares (WSS) plotted against the number of clusters. The bend at k=3 indicates the optimal number of clusters chosen for the K-Means model.
 
 ### Screen Time Violin Plot by Cluster
 ![Violin Plot](results/figures3/screen_violin.png)
 
+Violin plot displaying the spread and density of screen-on time within each cluster, combining the information of a box plot with a smoothed distribution shape.
+
 ### Battery Drain vs Screen Time
 ![Battery vs Screen](results/figures3/battery_vs_screen.png)
+
+Scatter plot of daily battery drain against screen-on time, illustrating the direct positive relationship between how long the screen is on and how much battery is consumed.
 
 ---
 
