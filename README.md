@@ -232,6 +232,12 @@ This project successfully identifies meaningful behavioral patterns in smartphon
 
 ---
 
+## 🔗 GitHub Repository
+
+https://github.com/Bichu0077/SmartphoneBehavior_Team8
+
+---
+
 ## 📚 References
 
 - Kaggle – Mobile Device Usage and User Behavior Dataset: https://www.kaggle.com/datasets/valakhorasani/mobile-device-usage-and-user-behavior-dataset
